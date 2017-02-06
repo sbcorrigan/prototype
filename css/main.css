@@ -1,0 +1,74 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	font-family: sans-serif;
+}
+
+ul
+{
+	padding-left: 18px;
+	padding-top: 5px;
+}
+
+p
+{
+	padding: 4px;
+}
+
+#content
+{
+	margin: auto;
+	width: 80%;
+	
+	margin-top: 25px;
+	text-align: center;
+}
+
+#phone, #desc, #intro
+{
+	margin: 0 auto;
+	
+	border: 1px dashed black;
+	padding: 5px;
+}
+
+#intro
+{
+	text-align: center;
+	
+	margin: auto;
+
+	width: 48%;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+#phone
+{
+	border: none;
+	
+	min-width: 250px;
+	display: inline-block;
+}
+
+#desc
+{
+	width: 60%;	
+	margin-top: 10px;
+	text-align: left;
+	
+	margin-bottom: 20px;
+}
+
+.hintbox
+{
+	border: 1px dashed black;
+	padding: 10px;
+
+	text-align: left;
+}

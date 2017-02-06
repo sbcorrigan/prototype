@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Prototype</title>
+</head>
+<body>
+<div id="body">
+
+<div id="phone">
+
+	<img src="img/howto1.png" usemap="#map" />
+
+	<map name="map">
+		<!-- youtube player -->
+	    <area shape="rect" coords="22, 117, 276, 298" href="#" onclick="clickImagePlayer();" />
+
+	    <!-- phone back -->
+	    <area shape="rect" coords="166, 503, 201, 539" href="#" onclick="loadPage( 'somethingelse' );" />
+	    <!-- app back -->
+	    <area shape="rect" coords="24, 76, 51, 113" href="#" onclick="loadPage( 'somethingelse' );" />
+
+	    <!-- next button -->
+	    <area shape="rect" coords="198, 459, 270, 491" href="#" onclick="loadPage( 'howto2' );" />
+	    <!-- step 2 tab -->
+	    <area shape="rect" coords="85, 298, 139, 334" href="#" onclick="loadPage( 'howto2' );" />
+	</map>
+</div>
+
+<div id="desc">
+	<p>
+		This screen will display step by step instructions that can help the user fix whatever issue they selected
+		on the previous screen.
+	</p>
+	<p>
+		This prototype version only displays the 'battery' selection, but the final version would have fully featured
+		instructions for every option.
+	</p>
+</div>
+
+</div>
+</body>
+</html>

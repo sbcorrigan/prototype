@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Prototype</title>
+</head>
+<body>
+<div id="body">
+
+<div id="phone">
+	<img src="img/wheretosend.png" usemap="#map" />
+
+	<map name="map">
+		<!-- phone back -->
+	    <area shape="rect" coords="165, 500, 201, 539" href="#" onclick="loadPage( 'foundtowtruck' );" />
+	    <!-- app back -->
+	    <area shape="rect" coords="24, 76, 47, 115" href="#" onclick="loadPage( 'foundtowtruck' );" />
+	    <!-- send tow truck -->
+	    <area shape="rect" coords="49, 446, 253, 489" href="#" onclick="loadPage( 'towtruckdispatched' );" />
+	    <!-- current number -->
+	    <area shape="rect" coords="118, 376, 260, 409" href="#" onclick="useMyNumber();" />
+	    <!-- use my location -->
+	    <area shape="rect" coords="119, 293, 262, 325" href="#" onclick="useMyLocation();" />
+	</map>
+</div>
+
+</div>
+</body>
+</html>
